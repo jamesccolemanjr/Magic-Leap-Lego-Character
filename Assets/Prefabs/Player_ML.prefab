@@ -889,9 +889,8 @@ GameObject:
   - component: {fileID: 8944822071573839162}
   - component: {fileID: 6328352728726267933}
   - component: {fileID: 6328352728726267922}
-  - component: {fileID: 7708269599055450203}
   m_Layer: 0
-  m_Name: Player_Idle
+  m_Name: Player_ML
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -957,7 +956,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2662540322499273299}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 881fdb4d409c6439fa1112afc2e7541c, type: 3}
   m_Name: 
@@ -969,22 +968,6 @@ MonoBehaviour:
   runFaceVar: {fileID: 6755110737249764120}
   jumpFaceVar: {fileID: 506638395998850648}
   idleFaceVar: {fileID: 9035470684975211086}
---- !u!54 &7708269599055450203
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2662540322499273299}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2707463137803290346
 GameObject:
   m_ObjectHideFlags: 0

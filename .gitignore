@@ -64,3 +64,5 @@ crashlytics-build.properties
 *.mpk
 .out
 Assets/MagicLeap
+meshing.app
+Assets/Plugins
