@@ -214,6 +214,12 @@ MonoBehaviour:
   _occlusionMaterial: {fileID: 2100000, guid: 5f7a8f815117efc428db87c9080e7cd0, type: 2}
   _wireframeMaterial: {fileID: 2100000, guid: 1a55190557520d846be14a6080e78893, type: 2}
   _pointCloudMaterial: {fileID: 2100000, guid: e21d105e99d24d74681aa12e14555049, type: 2}
+--- !u!20 &21391336 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20294507499185110, guid: 24158fb1437dc8e418d893939758764d,
+    type: 3}
+  m_PrefabInstance: {fileID: 21391327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &617974508
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +418,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328352728726267922, guid: c459b72cd4eed4a18884b2a167466c09,
+        type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 21391336}
+    - target: {fileID: 6328352728726267922, guid: c459b72cd4eed4a18884b2a167466c09,
+        type: 3}
+      propertyPath: speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328352728726267933, guid: c459b72cd4eed4a18884b2a167466c09,
+        type: 3}
+      propertyPath: m_SkinWidth
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c459b72cd4eed4a18884b2a167466c09, type: 3}
